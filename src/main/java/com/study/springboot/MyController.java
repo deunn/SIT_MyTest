@@ -27,4 +27,9 @@ public class MyController
 		return "test3";
 	}
 	
+	@RequestMapping("/test4")
+	public String test4() {
+		return "test4";
+	}
+	
 }
